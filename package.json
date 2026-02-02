@@ -4,7 +4,7 @@
   "description": "A test repo to verify background dependency installation blocking behavior",
   "main": "index.js",
   "scripts": {
-    "preinstall": "echo '--- SLEEPING FOR 2 MINUTES ---'; sleep 120; echo '--- WAKING UP ---'",
+    "preinstall": "echo 'Preinstall complete'",
     "test": "echo \"Error: no test specified\" && exit 1"
   },
   "keywords": [],
