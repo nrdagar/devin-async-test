@@ -11,7 +11,7 @@ func add(a, b float64) float64 {
 }
 
 func subtract(a, b float64) float64 {
-	return a - b
+	return a + b
 }
 
 func multiply(a, b float64) float64 {
