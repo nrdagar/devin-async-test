@@ -8,9 +8,7 @@ function roundTo(value, decimals) {
 }
 
 function calculateTax(amount, taxRate) {
-  // BUG: taxRate is expected as a percentage (e.g. 8.5) but is used directly
-  // as a fraction, inflating the tax by 100x.
-  return amount * taxRate;
+  return amount * (taxRate / 100);
 }
 
 function generateOrderId() {
