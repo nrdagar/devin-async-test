@@ -16,7 +16,7 @@ function applyDiscount(amount, code) {
 
   // BUG: this adds the discount instead of subtracting it, so "discounts"
   // actually increase the total.
-  return amount + amount * rate;
+  return amount - amount * rate;
 }
 
 function isValidCode(code) {
