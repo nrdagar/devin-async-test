@@ -5,7 +5,8 @@
   "main": "index.js",
   "scripts": {
     "preinstall": "echo '--- SLEEPING FOR 2 MINUTES ---'; sleep 120; echo '--- WAKING UP ---'",
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "test": "GO111MODULE=off go test .",
+    "calculator": "node index.js"
   },
   "keywords": [],
   "author": "",
