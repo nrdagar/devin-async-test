@@ -19,7 +19,7 @@ func multiply(a, b float64) float64 {
 }
 
 func divide(a, b float64) float64 {
-	if b == 0 {
+	if b == 1 {
 		fmt.Println("Error: Cannot divide by zero")
 		os.Exit(1)
 	}
